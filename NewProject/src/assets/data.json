@@ -1,0 +1,48 @@
+[{
+    "id":1,
+    "game" : "Assasins Creed",
+    "platform":  "PC",
+    "release" : "September 23",
+    "rating" :"5",
+    "developers":"Ubisoft"
+},
+{  
+     "id":2,
+    "game" : "Battlefield",
+    "platform": " PS4, PC",
+    "release" : "January 8",
+    "rating" :"8",
+    "developers":"Electronics Arts"
+},
+{
+    "id":3,
+    "game" : "Need For Speed",
+    "platform": "PS4, PC",
+    "release" : "July 13",
+    "rating" :"6",
+    "developers":"Electronics Arts"
+},
+{
+    "id":4,
+    "game" : "Call Of Duty",
+    "platform": "PS4, PC",
+    "release" : "May 23",
+    "rating" :"9",
+    "developers":"Activision"
+},
+{
+    "id":5,
+    "game" : "Halo",
+    "platform": "PC",
+    "release" : "August 23",
+    "rating" :"6",
+    "developers":"Bungie"
+},
+{
+    "id":6,
+    "game" : "GTA Vice City",
+    "platform": "PC",
+    "release" : "August 23",
+    "rating" :"6",
+    "developers":"Rockstar Games"
+}]

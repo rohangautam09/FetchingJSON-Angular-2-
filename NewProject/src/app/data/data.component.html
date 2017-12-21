@@ -1,0 +1,29 @@
+<button (click)="getjson()" *ngIf="!test">Start</button>
+<button (click)="hide()" *ngIf="test">Hide</button>
+<br><br>
+<table class="table" border=25px *ngIf="test">
+  <tr >
+      <th>S.no</th>
+      <th>Game</th>
+      <th>Platform</th> 
+      <th>Release</th>
+      <th>Ratings</th>
+      <th>Developers</th>
+  </tr>
+  <tr *ngFor="let i of a">
+      <td>{{i.id}}</td>
+      <td>{{i.game}}</td>
+      <td>{{i.platform}}</td>
+      <td>{{i.release}}</td>
+      <td>{{i.rating}}</td>
+      <td>{{i.developers}}</td>
+  </tr>
+</table>
+
+<!-- <form #f="ngForm" class="form-inline">
+  <div class="col-xs-3">
+<input #nam="ngModel"  name="firstname" ngModel type="text"  placeholder="enter name"  >
+<input #surname="ngModel" ngModel type="text" name="sur"  placeholder="enter surname"  >
+<button (click)="submit(f.value)">Submit</button>
+  </div>
+</form> -->
